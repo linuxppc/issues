@@ -4,6 +4,8 @@ This is an issues-only repository for linuxppc.
 
 See the [issues](https://github.com/linuxppc/issues/issues).
 
+Or the [milestones](https://github.com/linuxppc/issues/milestones).
+
 ## Quick links
 
 - [Open bugs](https://github.com/linuxppc/issues/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
