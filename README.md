@@ -19,3 +19,11 @@ Or the [milestones](https://github.com/linuxppc/issues/milestones).
 - [Oldest bugs](https://github.com/linuxppc/issues/issues?q=is%3Aissue+is%3Aopen+sort%3Acreated-asc+label%3Abug)
 - [In progress](https://github.com/linuxppc/issues/issues?q=is%3Aissue+is%3Aopen+sort%3Acreated-asc+label%3Ain-progress)
 - [Waiting on upstream](https://github.com/linuxppc/issues/issues?q=is%3Aissue+is%3Aopen+label%3A%22waiting+on+upstream%22)
+
+## Travis status
+
+### merge
+[![Build Status of merge branch](https://travis-ci.org/linuxppc/linux.svg?branch=merge)](https://travis-ci.org/linuxppc/linux/branches)
+
+### merge-test
+[![Build Status of merge-test branch](https://travis-ci.org/linuxppc/linux.svg?branch=merge-test)](https://travis-ci.org/linuxppc/linux/branches)
