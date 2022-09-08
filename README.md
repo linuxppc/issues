@@ -20,10 +20,30 @@ Or the [milestones](https://github.com/linuxppc/issues/milestones).
 - [In progress](https://github.com/linuxppc/issues/issues?q=is%3Aissue+is%3Aopen+sort%3Acreated-asc+label%3Ain-progress)
 - [Waiting on upstream](https://github.com/linuxppc/issues/issues?q=is%3Aissue+is%3Aopen+label%3A%22waiting+on+upstream%22)
 
-## Travis status
+## Build status
 
 ### merge
-[![Build Status of merge branch](https://travis-ci.org/linuxppc/linux.svg?branch=merge)](https://travis-ci.org/linuxppc/linux/branches)
+ - ![Status of kernel+qemu for merge branch](https://github.com/linuxppc/linux-ci/actions/workflows/powerpc-kernel+qemu.yml/badge.svg?branch=merge)
+   ![Status of clang for merge branch](https://github.com/linuxppc/linux-ci/actions/workflows/powerpc-clang.yml/badge.svg?branch=merge)
+   ![Status of sparse for merge branch](https://github.com/linuxppc/linux-ci/actions/workflows/powerpc-sparse.yml/badge.svg?branch=merge)
+ - ![Status of ppctests for merge branch](https://github.com/linuxppc/linux-ci/actions/workflows/powerpc-ppctests.yml/badge.svg?branch=merge)
+   ![Status of selftests for merge branch](https://github.com/linuxppc/linux-ci/actions/workflows/powerpc-selftests.yml/badge.svg?branch=merge)
+ - ![Status of perf for merge branch](https://github.com/linuxppc/linux-ci/actions/workflows/powerpc-perf.yml/badge.svg?branch=merge)
 
 ### merge-test
-[![Build Status of merge-test branch](https://travis-ci.org/linuxppc/linux.svg?branch=merge-test)](https://travis-ci.org/linuxppc/linux/branches)
+ - ![Status of kernel+qemu for merge-test branch](https://github.com/linuxppc/linux-ci/actions/workflows/powerpc-kernel+qemu.yml/badge.svg?branch=merge-test)
+   ![Status of clang for merge-test branch](https://github.com/linuxppc/linux-ci/actions/workflows/powerpc-clang.yml/badge.svg?branch=merge-test)
+   ![Status of sparse for merge-test branch](https://github.com/linuxppc/linux-ci/actions/workflows/powerpc-sparse.yml/badge.svg?branch=merge-test)
+   ![Status of allconfig for merge-test branch](https://github.com/linuxppc/linux-ci/actions/workflows/powerpc-allconfig.yml/badge.svg?branch=merge-test)
+ - ![Status of ppctests for merge-test branch](https://github.com/linuxppc/linux-ci/actions/workflows/powerpc-ppctests.yml/badge.svg?branch=merge-test)
+   ![Status of selftests for merge-test branch](https://github.com/linuxppc/linux-ci/actions/workflows/powerpc-selftests.yml/badge.svg?branch=merge-test)
+ - ![Status of perf for merge-test branch](https://github.com/linuxppc/linux-ci/actions/workflows/powerpc-perf.yml/badge.svg?branch=merge-test)
+
+### linux-next
+ - ![Status of kernel+qemu for linux-next branch](https://github.com/linuxppc/linux-ci/actions/workflows/powerpc-kernel+qemu.yml/badge.svg?branch=linux-next)
+   ![Status of clang for linux-next branch](https://github.com/linuxppc/linux-ci/actions/workflows/powerpc-clang.yml/badge.svg?branch=linux-next)
+   ![Status of sparse for linux-next branch](https://github.com/linuxppc/linux-ci/actions/workflows/powerpc-sparse.yml/badge.svg?branch=linux-next)
+ - ![Status of ppctests for linux-next branch](https://github.com/linuxppc/linux-ci/actions/workflows/powerpc-ppctests.yml/badge.svg?branch=linux-next)
+   ![Status of selftests for linux-next branch](https://github.com/linuxppc/linux-ci/actions/workflows/powerpc-selftests.yml/badge.svg?branch=linux-next)
+ - ![Status of perf for linux-next branch](https://github.com/linuxppc/linux-ci/actions/workflows/powerpc-perf.yml/badge.svg?branch=linux-next)
+
